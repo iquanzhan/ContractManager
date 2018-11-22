@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context="com.chengxiaoxiao.com.contractmanager.activity.CatalogActivity">
+
+    <TextView
+        android:id="@+id/indeTitle"
+        style="@style/WindowTitle"
+        android:text="群组"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indeTitle"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#fff"
+        >
+
+
+    </ListView>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_add_selector"
+        android:onClick="addCatalog"
+        android:padding="2dp"
+        android:src="@drawable/add"
+        />
+
+
+</RelativeLayout>
